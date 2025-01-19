@@ -14,3 +14,9 @@ node_modules
 
 # .DS_Store is only for Mac users
 **/.DS_Store
+
+# readme.md is used as an overview of the repo
+.README.md
+
+# pnpm-lock.yaml is a lock file for pnpm
+pnpm-lock.yaml
