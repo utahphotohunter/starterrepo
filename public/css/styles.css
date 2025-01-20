@@ -4,3 +4,82 @@
 *:after {
   box-sizing: border-box;
 }
+
+/* variables */
+:root {
+  --primary-color: #02b0d4;
+  --secondary-color: white;
+  --shadow-color: #b5958c;
+  --nav: #242332;
+  --text-color: #020202;
+  --captions: #5256fc;
+}
+
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: var(--text-color);
+  border: none;
+}
+
+/* utilities */
+.container {
+  padding: 10px;
+}
+
+.btn {
+  font-weight: bold;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px var(--shadow-color);
+  background-color: var(--primary-color);
+}
+
+.btn:hover {
+  background-color: var(--captions);
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+}
+
+.primary-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* header */
+#top-header {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+#tools:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* navbar */
+nav {
+  background-color: var(--nav);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+nav ul li {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
