@@ -9,7 +9,7 @@
 :root {
   --primary-color: #02b0d4;
   --secondary-color: white;
-  --shadow-color: #b5958c;
+  --shadow-color: #b5958c90;
   --nav: #242332;
   --text-color: #020202;
   --captions: #5256fc;
@@ -23,6 +23,14 @@
   list-style: none;
   color: var(--text-color);
   border: none;
+}
+
+body {
+  position: relative;
+}
+
+li {
+  font-size: 1.2rem;
 }
 
 /* utilities */
@@ -46,6 +54,11 @@
 }
 
 .primary-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.secondary-text {
   font-size: 1.8rem;
   font-weight: bold;
 }
@@ -81,5 +94,90 @@ nav ul li {
 
 nav ul li:hover {
   cursor: pointer;
+  text-decoration: underline;
+}
+
+/* footer */
+footer {
+  padding: 10px;
+}
+
+/* main */
+/* showcase */
+/* features */
+#features {
+  background-color: #ffffff90;
+  width: fit-content;
+  padding: 7px;
+  position: absolute;
+}
+
+#features h3, #features li {
+  color: var(--primary-color);
+  text-shadow: 1px 1px 1px var(--shadow-color);
+}
+
+#features button {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  font-size: 1.2rem;
+}
+
+#delorean {
+  width: 90%;
+  margin-top: 90px;
+  display: flex;
+  justify-self: end;
+}
+
+#delorean-large {
+  display: none;
+}
+
+/* reviews */
+#reviews {
+  line-height: 1.5rem;
+  padding: 5px 15px;
+}
+
+#reviews li {
+  list-style-type: disc;
+  font-size: 1rem;
+}
+
+/* upgrades */
+#upgrades {
+  margin-top: 10px;
+  padding: 5px 15px;
+}
+
+#upgrade-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+#upgrade-container figure {
+  width: 90%;
+  height: 95%;
+  margin: 5px;
+}
+
+#upgrade-container .img-container {
+  width: 100%;
+  background-color: var(--primary-color);
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#upgrade-container figure figcaption {
+  color: blue;
   text-decoration: underline;
 }
