@@ -1,0 +1,80 @@
+/******* Change Box Model ***************/
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* variables */
+:root {
+    --primary-color: #02b0d4;
+    --secondary-color: white;
+    --shadow-color: #b5958c90;
+    --nav: #242332;
+    --text-color: #020202;
+    --captions: #5256fc;
+}
+
+@media(min-width: 820px){
+
+/* global */
+body {
+    max-width: 80%;
+    margin: 0 auto;
+    background-image: url(/images/site/checkerboard.jpg);
+}
+
+#wrapper {
+    background-color: white;
+    border: var(--primary-color) 5px solid;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+/* showcase */
+#delorean {
+    display: none;
+}
+
+#delorean-large {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#features {
+    left: 150px;
+    top: 200px;
+}
+
+/* info */
+#vehicle-info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+#reviews, #upgrades {
+    width: 100%;
+}
+
+#upgrades {
+    margin: 0;
+}
+
+#reviews {
+    padding-left: 20px;
+    line-height: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#reviews .secondary-text {
+    width: 100%;
+}
+}

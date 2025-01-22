@@ -59,7 +59,7 @@ li {
 }
 
 .secondary-text {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
@@ -137,6 +137,7 @@ footer {
   display: none;
 }
 
+/* info */
 /* reviews */
 #reviews {
   line-height: 1.5rem;
