@@ -7,12 +7,12 @@
 
 /* variables */
 :root {
-  --primary-color: #02b0d4;
+  --primary-color: #20c81d;
   --secondary-color: white;
-  --shadow-color: #b5958c90;
-  --nav: #242332;
+  --shadow-color: #0e246590;
+  --nav: #343167;
   --text-color: #020202;
-  --captions: #5256fc;
+  --captions: #da0000;
 }
 
 /* global */
@@ -179,6 +179,6 @@ footer {
 }
 
 #upgrade-container figure figcaption {
-  color: blue;
+  color: var(--captions);
   text-decoration: underline;
 }

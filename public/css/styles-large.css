@@ -1,19 +1,12 @@
-/******* Change Box Model ***************/
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
 /* variables */
-:root {
+/* :root {
     --primary-color: #02b0d4;
     --secondary-color: white;
     --shadow-color: #b5958c90;
     --nav: #242332;
     --text-color: #020202;
     --captions: #5256fc;
-}
+} */
 
 @media(min-width: 820px){
 
