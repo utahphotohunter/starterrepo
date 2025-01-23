@@ -7,7 +7,7 @@
 
 /* variables */
 :root {
-  --primary-color: #20c81d;
+  --primary-color: #294d5b;
   --secondary-color: white;
   --shadow-color: #0e246590;
   --nav: #343167;
@@ -44,6 +44,7 @@ li {
   margin: 10px;
   box-shadow: 2px 2px 2px var(--shadow-color);
   background-color: var(--primary-color);
+  color: white;
 }
 
 .btn:hover {
