@@ -24,6 +24,5 @@ WHERE public.classification.classification_name = 'Sport';
 
 -- update image path for all vehicles
 UPDATE public.inventory 
-UPDATE public.inventory 
 SET inv_image = REPLACE(inv_image, 'images/', 'images/vehicles/'),
 	inv_thumbnail = REPLACE(inv_thumbnail, 'images/', 'images/vehicles/');
